@@ -9,7 +9,7 @@ pipeline {
         doGenerateSubmoduleConfigurations: false, 
         extensions: [[$class: 'CleanCheckout']], 
         submoduleCfg: [], 
-        userRemoteConfigs: [[credentialsId: '', url: 'https://github.com/kraja2002/helloworld.git']]
+        userRemoteConfigs: [[credentialsId: 'RajaTest', url: 'https://github.com/kraja2002/helloworld.git']]
     ])
 			}
 		}
